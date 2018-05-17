@@ -49,6 +49,29 @@ l_compilers="${l_compilers} pgi@9.0"
 l_compilers="${l_compilers} pgi@8.0"
 l_compilers="${l_compilers} pgi@7.1    pgi@7.0"
 
-
 census=( ${l_compilers} )
 echo "${#census[@]} Spack-recognized compilers loaded"
+
+# topa1@ray23:spack.ray.current $ date
+# Thu May 17 11:14:11 PDT 2018
+
+# topa1@ray23:spack.ray.current $ pwd
+# /g/g13/topa1/spack/spack.ray.current
+
+# topa1@ray23:spack.ray.current $ spack arch
+# spacklinux-rhel7-ppc64le
+
+# topa1@ray23:spack.ray.current $ spack compilers
+# ==> Available compilers
+# -- clang rhel7-ppc64le ------------------------------------------
+# clang@3.8.0
+#
+# -- gcc rhel7-ppc64le --------------------------------------------
+# gcc@8.1.0  gcc@7.2.0  gcc@6.4.0  gcc@6.2.0  gcc@5.5.0  gcc@5.3.0  gcc@5.1.0  gcc@4.9.3  gcc@4.8.5
+# gcc@7.3.0  gcc@7.1.0  gcc@6.3.0  gcc@6.1.0  gcc@5.4.0  gcc@5.2.0  gcc@4.9.4  gcc@4.9.2  gcc@4.8.4
+#
+# -- xl rhel7-ppc64le ---------------------------------------------
+# xl@16.1
+#
+# -- xl_r rhel7-ppc64le -------------------------------------------
+# xl_r@16.1
