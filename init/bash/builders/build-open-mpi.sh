@@ -2,7 +2,7 @@
 # . build-open-mpi.sh <node>
 printf '%s\n' "+++  $(pwd)/${BASH_SOURCE[0]} $(date)"
 
-## point ${Master} to master-ompi database
+## point ${master} to master-ompi database
 
 function pause(){
     echo ""
@@ -17,8 +17,8 @@ tpl="openmpi"
 myArch="$(spack arch)"
 klingons=""
 
-source load-ompi-versions-spack.sh
-source "load-spack-compilers-${host_name}-${1}.sh"
+source "${master}/loaders/load-ompi-versions-spack.sh"
+source "${master}/loaders/load-spack-compilers-${host_name}-${1}.sh"
 
 export myTimings="${SPACK_ROOT}/${tpl}-${HOSTNAME}-${ymd}-timings.txt"
 echo "${tpl} build times for ${host_name} ${1}" >  ${myTimings}
@@ -49,13 +49,13 @@ export spackCommands="${SPACK_ROOT}/spack-commands.txt"
 echo $(date) >  ${spackCommands}
 echo ""      >> ${spackCommands}
 
-export g_db_path="${Master}/${host_name}/${1}"
+export g_db_path="${master}/${host_name}/${1}"
 echo "spack command file = ${spackCommands}"
 echo "timings file       = ${myTimings}"
 echo ""
 echo "machine name    = ${host_name}"
 echo "node type       = ${1}"
-echo "master database = ${Master}"
+echo "master database = ${master}"
 echo "g_db_path       = ${g_db_path}"
 
 pause
@@ -132,5 +132,5 @@ spack-compilers "${g_db_path}/${myArch}/${host_name}-spack-compilers-${ymd}.dat"
 
 # copy scripts
 sp
-cp ${SPACK_ROOT}/*.sh  "${Master}/${host_name}/${1}/${ymd}"
-cp ${SPACK_ROOT}/*.txt "${Master}/${host_name}/${1}/${ymd}"
+cp ${SPACK_ROOT}/*.sh  "${master}/${host_name}/${1}/${ymd}"
+cp ${SPACK_ROOT}/*.txt "${master}/${host_name}/${1}/${ymd}"

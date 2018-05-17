@@ -1,8 +1,8 @@
 #!/bin/bash
 # . source build-generic gcc gcc@4.9.3
-printf '%s\n' "+++  $(pwd)/${BASH_SOURCE[0]} $(date)"
+printf '%s\n' "$(date)  $(pwd)/${BASH_SOURCE[0]}"
 
-source "list-versions-${1}.sh" # establishes ${what} and ${versions}
+source "${master}/builders/list-versions-${1}.sh" # establishes ${what} and ${versions}
 
 SECONDS=0
 counter=0
