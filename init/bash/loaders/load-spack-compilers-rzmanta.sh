@@ -1,5 +1,5 @@
 #!/bin/bash
-printf '%s\n' "+++  $(pwd)/$(tput bold)${BASH_SOURCE[0]}$(tput sgr0) $(date)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # topa1@rzmanta23:spack.rzmanta.hot $ date
 # Wed May 16 13:55:14 PDT 2018

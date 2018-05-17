@@ -1,8 +1,7 @@
  #!/bin/bash
  #SBATCH -N 16
  #SBATCH -A dantopa
-
-printf '%s\n' "+++  $(pwd)/${BASH_SOURCE[0]} $(date)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 bench_marks="osu_bibw osu_latency  osu_latency_mt  osu_mbw_mr  osu_multi_lat"
 

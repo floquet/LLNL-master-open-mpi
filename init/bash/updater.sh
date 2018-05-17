@@ -1,6 +1,6 @@
 #!/bin/bash
 # . updater.sh <node>
-printf '%s\n' "+++  $(pwd)/${BASH_SOURCE[0]} $(date)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 echo "\${Master}     = ${Master}"
 echo "\${SPACK_ROOT} = ${SPACK_ROOT}"

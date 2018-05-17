@@ -1,5 +1,5 @@
 #!/bin/bash
-printf '%s\n' "+++  ${BASH_SOURCE[0]} $(date)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 export v_ompi=""
 ## 3

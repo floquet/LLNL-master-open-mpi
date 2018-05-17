@@ -1,6 +1,6 @@
 #!/bin/bash
 # . build-open-mpi.sh <node>
-printf '%s\n' "+++  ${BASH_SOURCE[0]} $(date)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 ## point ${master} to master-ompi database
 
@@ -17,8 +17,7 @@ tpl="openmpi"
 myArch="$(spack arch)"
 klingons=""
 
-source "${master}/init/bash/loaders/load-ompi-versions-spack.sh"
-echo "${master}/init/bash/loaders/load-spack-compilers-${host_name}-${1}.sh"
+source "${master}/init/bash/loaders/load-open-mpi-versions-spack.sh"
 source "${master}/init/bash/loaders/load-spack-compilers-${host_name}-${1}.sh"
 
 export myTimings="${SPACK_ROOT}/${tpl}-${HOSTNAME}-${ymd}-timings.txt"

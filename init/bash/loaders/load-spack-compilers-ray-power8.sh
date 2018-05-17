@@ -1,5 +1,5 @@
 #!/bin/bash
-printf '%s\n' "+++  $(pwd)/$(tput bold)${BASH_SOURCE[0]}$(tput sgr0) $(date)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # topa1@ray23:scripts $ date
 # Wed May 16 16:40:06 PDT 2018
