@@ -1,8 +1,21 @@
 #!/bin/bash
-# . source build-generic gcc gcc@4.9.3
+# . source build-generic gcc
 printf '%s\n' "$(date)  $(pwd)/${BASH_SOURCE[0]}"
 
-source "${master}/builders/list-versions-${1}.sh" # establishes ${what} and ${versions}
+function pause(){
+    echo ""
+    echo "press RETURN to continue; ctrl+c to stop"
+    read -p "$*"
+}
+
+export where="${master}/init/bash/builders/list-versions-${1}.sh"
+
+echo "gcc system compiler = ${gcc_system_compiler}"
+echo "looking for version list in ${where}"
+
+pause
+
+source "${master}/init/bash/builders/list-versions-${1}.sh" # establishes ${what} and ${versions}
 
 SECONDS=0
 counter=0
@@ -20,15 +33,15 @@ for v in ${versions}; do
     echo "**   **   **   **   **   **"
     echo "**   **   **   **   **   **"
     echo ""
-    echo "spack install ${what} @ ${v} % ${2} ${myArch}"
-          spack install ${what} @ ${v} % ${2} ${myArch}
+    echo "spack install ${what} @ ${v} % ${gcc_system_compiler} ${myArch}"
+          spack install ${what} @ ${v} % ${gcc_system_compiler} ${myArch}
     echo ""
           spack clean -a
     echo ""
     echo "spack compiler find $(spack location --install-dir ${what} @ ${v})"
           spack compiler find $(spack location --install-dir ${what} @ ${v})
     date
-    echo "time to install ${what} @ ${v} % ${2} = $((SECONDS-task_seconds))s"
+    echo "time to install ${what} @ ${v} % ${gcc_system_compiler} = $((SECONDS-task_seconds))s"
 done
 echo "time for all ${counter} ${what} installs = ${SECONDS} s"
 
