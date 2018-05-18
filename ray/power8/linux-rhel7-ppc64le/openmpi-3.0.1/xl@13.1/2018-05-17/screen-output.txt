@@ -1,0 +1,9 @@
+==> libsigsegv is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-13.1/libsigsegv-2.11-uyongkuc2cw2zzlm6qi42fxi4gdiryhf
+==> Installing m4
+==> Fetching https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-ycwi5p5ltotcr5mgefhnlv45su2sk7im/m4-1.4.18.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-ycwi5p5ltotcr5mgefhnlv45su2sk7im
+==> Applied patch gnulib-pgi.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'

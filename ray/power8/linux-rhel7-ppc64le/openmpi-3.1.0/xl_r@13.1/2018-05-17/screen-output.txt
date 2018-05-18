@@ -1,0 +1,151 @@
+==> Installing libsigsegv
+==> Fetching https://ftp.gnu.org/gnu/libsigsegv/libsigsegv-2.11.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi
+==> No patches needed for libsigsegv
+==> Building libsigsegv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+6 errors found in build log:
+     70     checking if /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r PIC flag -fPIC -DPIC 
+            works... yes
+     71     checking if /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r static flag -static w
+            orks... yes
+     72     checking if /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r supports -c -o file.o
+            ... yes
+     73     checking if /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r supports -c -o file.o
+            ... (cached) yes
+     74     checking whether the /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r linker (/usr
+            /tce/bin/ld) supports shared libraries... yes
+     75     checking whether -lc should be explicitly linked in... no
+  >> 76     checking dynamic linker characteristics... /usr/tcetmp/packages/xl/xl-2016.12.02/xlC/13.1.5/bin
+            /.orig/xlc_r: error: 1501-294 No input file specified. Please use -qhelp for more information.
+     77     GNU/Linux ld.so
+     78     checking how to hardcode library paths into programs... immediate
+     79     checking whether stripping libraries is possible... yes
+     80     checking if libtool supports shared libraries... yes
+     81     checking whether to build shared libraries... yes
+     82     checking whether to build static libraries... yes
+
+     ...
+
+     162    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c version.c  -
+            fPIC -DPIC -o .libs/version.o
+     163    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c stackvma.c  
+            -fPIC -DPIC -o .libs/stackvma.o
+     164    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c handler.c  -
+            fPIC -DPIC -o .libs/handler.o
+     165    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c dispatcher.c
+              -fPIC -DPIC -o .libs/dispatcher.o
+     166    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c leave.c -o l
+            eave.o >/dev/null 2>&1
+     167    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c version.c -o
+             version.o >/dev/null 2>&1
+  >> 168    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 169    rm: cannot remove 'wcode-init-out.device': No such file or directory
+     170    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c handler.c -o
+             handler.o >/dev/null 2>&1
+     171    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c dispatcher.c
+             -o dispatcher.o >/dev/null 2>&1
+     172    libtool: compile:  /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_
+            H -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3
+            xqe52adgxvvfgi/libsigsegv-2.11/src -I.. -I. -I/g/g13/topa1/spack/spack.ray.current/var/spack/st
+            age/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/src -g -O2 -c stackvma.c -
+            o stackvma.o >/dev/null 2>&1
+     173    /bin/sh ../libtool  --tag=CC   --mode=link /g/g13/topa1/spack/spack.ray.current/lib/spack/env/x
+            l_r/xlc_r  -g -O2 -rpath /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_
+            r-13.1/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/lib -version-info 2:4:0 -lc -no-undefin
+            ed  -o libsigsegv.la -rpath /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/
+            xl_r-13.1/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/lib handler.lo stackvma.lo leave.lo 
+            dispatcher.lo version.lo
+     174    libtool: link: /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -qmkshrobj  .libs/
+            handler.o .libs/stackvma.o .libs/leave.o .libs/dispatcher.o .libs/version.o   -lc  -g -O2   -Wl
+            ,-soname -Wl,libsigsegv.so.2 -o .libs/libsigsegv.so.2.0.4
+     175    nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+
+     ...
+
+     183    make[2]: Entering directory '/var/tmp/topa1/spack-stage/spack-stage-hhXqIy/libsigsegv-2.11/test
+            s'
+     184    /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_H -I. -I/g/g13/topa
+            1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libs
+            igsegv-2.11/tests -I..  -I../src   -g -O2 -c -o sigsegv1.o sigsegv1.c
+     185    /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_H -I. -I/g/g13/topa
+            1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libs
+            igsegv-2.11/tests -I..  -I../src   -g -O2 -c -o sigsegv2.o sigsegv2.c
+     186    /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_H -I. -I/g/g13/topa
+            1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libs
+            igsegv-2.11/tests -I..  -I../src   -g -O2 -c -o sigsegv3.o sigsegv3.c
+     187    /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_H -I. -I/g/g13/topa
+            1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libs
+            igsegv-2.11/tests -I..  -I../src   -g -O2 -c -o stackoverflow1.o stackoverflow1.c
+     188    /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -DHAVE_CONFIG_H -I. -I/g/g13/topa
+            1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libs
+            igsegv-2.11/tests -I..  -I../src   -g -O2 -c -o stackoverflow2.o stackoverflow2.c
+  >> 189    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 190    rm: cannot remove 'wcode-init-out.device': No such file or directory
+     191    /bin/sh ../libtool  --tag=CC   --mode=link /g/g13/topa1/spack/spack.ray.current/lib/spack/env/x
+            l_r/xlc_r  -g -O2   -o sigsegv1 sigsegv1.o ../src/libsigsegv.la
+     192    /bin/sh ../libtool  --tag=CC   --mode=link /g/g13/topa1/spack/spack.ray.current/lib/spack/env/x
+            l_r/xlc_r  -g -O2   -o sigsegv3 sigsegv3.o ../src/libsigsegv.la
+     193    /bin/sh ../libtool  --tag=CC   --mode=link /g/g13/topa1/spack/spack.ray.current/lib/spack/env/x
+            l_r/xlc_r  -g -O2   -o sigsegv2 sigsegv2.o ../src/libsigsegv.la
+     194    /bin/sh ../libtool  --tag=CC   --mode=link /g/g13/topa1/spack/spack.ray.current/lib/spack/env/x
+            l_r/xlc_r  -g -O2   -o stackoverflow1 stackoverflow1.o ../src/libsigsegv.la
+     195    /bin/sh ../libtool  --tag=CC   --mode=link /g/g13/topa1/spack/spack.ray.current/lib/spack/env/x
+            l_r/xlc_r  -g -O2   -o stackoverflow2 stackoverflow2.o ../src/libsigsegv.la
+     196    libtool: link: /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -g -O2 -o .libs/si
+            gsegv1 sigsegv1.o  ../src/.libs/libsigsegv.so -lc -Wl,-rpath -Wl,/g/g13/topa1/spack/spack.ray.c
+            urrent/opt/spack/linux-rhel7-ppc64le/xl_r-13.1/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi
+            /lib
+
+     ...
+
+     200    nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+     201    nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+     202    libtool: link: /g/g13/topa1/spack/spack.ray.current/lib/spack/env/xl_r/xlc_r -g -O2 -o .libs/st
+            ackoverflow2 stackoverflow2.o  ../src/.libs/libsigsegv.so -lc -Wl,-rpath -Wl,/g/g13/topa1/spack
+            /spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-13.1/libsigsegv-2.11-bxsxofho67j3q232z3xq
+            e52adgxvvfgi/lib
+     203    nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+     204    nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+     205    nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+  >> 206    /usr/bin/ld: cannot open linker script file .ls2: No such file or directory
+     207    make[2]: *** [Makefile:633: stackoverflow1] Error 255
+     208    make[2]: *** Waiting for unfinished jobs....
+     209    make[2]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-hhXqIy/libsigsegv-2.11/tests
+            '
+     210    make[1]: *** [Makefile:426: all-recursive] Error 1
+     211    make[1]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-hhXqIy/libsigsegv-2.11'
+     212    make: *** [Makefile:358: all] Error 2
+
+See build log for details:
+  /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi/libsigsegv-2.11/spack-build.out

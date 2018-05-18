@@ -1,0 +1,102 @@
+==> Installing libsigsegv
+==> Fetching https://ftp.gnu.org/gnu/libsigsegv/libsigsegv-2.11.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-i2md6uftvgf5k6vwghxpwkdw2ng64wn2/libsigsegv-2.11.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-i2md6uftvgf5k6vwghxpwkdw2ng64wn2
+==> No patches needed for libsigsegv
+==> Building libsigsegv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libsigsegv
+  Fetch: 1.00s.  Build: 8.53s.  Total: 9.53s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/libsigsegv-2.11-i2md6uftvgf5k6vwghxpwkdw2ng64wn2
+==> Installing m4
+==> Fetching https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-6xfqmn4qedidmhml46qrrwh7o5uc4iww/m4-1.4.18.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-6xfqmn4qedidmhml46qrrwh7o5uc4iww
+==> Applied patch gnulib-pgi.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed m4
+  Fetch: 1.92s.  Build: 38.34s.  Total: 40.26s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/m4-1.4.18-6xfqmn4qedidmhml46qrrwh7o5uc4iww
+==> Installing libtool
+==> Fetching http://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libtool-2.4.6-z4sy4r5jvesuqo2lsfgujf3zwdk3ffcw/libtool-2.4.6.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libtool-2.4.6-z4sy4r5jvesuqo2lsfgujf3zwdk3ffcw
+==> No patches needed for libtool
+==> Building libtool [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libtool
+  Fetch: 1.71s.  Build: 13.73s.  Total: 15.45s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/libtool-2.4.6-z4sy4r5jvesuqo2lsfgujf3zwdk3ffcw
+==> Installing pkgconf
+==> Fetching http://distfiles.alpinelinux.org/distfiles/pkgconf-1.4.0.tar.xz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/pkgconf-1.4.0-vpqbf5cy7grmwflj7npwssfaqitz5gfx/pkgconf-1.4.0.tar.xz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/pkgconf-1.4.0-vpqbf5cy7grmwflj7npwssfaqitz5gfx
+==> No patches needed for pkgconf
+==> Building pkgconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pkgconf
+  Fetch: 1.01s.  Build: 7.02s.  Total: 8.03s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/pkgconf-1.4.0-vpqbf5cy7grmwflj7npwssfaqitz5gfx
+==> Installing util-macros
+==> Fetching https://www.x.org/archive/individual/util/util-macros-1.19.1.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/util-macros-1.19.1-q4gsvpkxtwkiriyyluucz3v7ewxzlcuj/util-macros-1.19.1.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/util-macros-1.19.1-q4gsvpkxtwkiriyyluucz3v7ewxzlcuj
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.43s.  Build: 2.17s.  Total: 2.59s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/util-macros-1.19.1-q4gsvpkxtwkiriyyluucz3v7ewxzlcuj
+==> Installing libpciaccess
+==> Fetching http://xorg.freedesktop.org/archive/individual/lib/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libpciaccess-0.13.5-dhl7c3a5vgmmhehrvi2f3gcj4r4ucazj/libpciaccess-0.13.5.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libpciaccess-0.13.5-dhl7c3a5vgmmhehrvi2f3gcj4r4ucazj
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.63s.  Build: 9.48s.  Total: 10.11s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/libpciaccess-0.13.5-dhl7c3a5vgmmhehrvi2f3gcj4r4ucazj
+==> Installing xz
+==> Fetching http://tukaani.org/xz/xz-5.2.3.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/xz-5.2.3-ifxdrzs65quapm2h4ko3ozvi62nuq7mx/xz-5.2.3.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/xz-5.2.3-ifxdrzs65quapm2h4ko3ozvi62nuq7mx
+==> No patches needed for xz
+==> Building xz [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed xz
+  Fetch: 3.17s.  Build: 17.80s.  Total: 20.96s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/xz-5.2.3-ifxdrzs65quapm2h4ko3ozvi62nuq7mx
+==> Installing zlib
+==> Fetching http://zlib.net/fossils/zlib-1.2.11.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-7wm3vxp62y2bzpkfhljth3ywlwtzldy2/zlib-1.2.11.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-7wm3vxp62y2bzpkfhljth3ywlwtzldy2
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-15.1/zlib-1.2.11-7wm3vxp62y2bzpkfhljth3ywlwtzldy2'
+See build log for details:
+  /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-7wm3vxp62y2bzpkfhljth3ywlwtzldy2/zlib-1.2.11/spack-build.out

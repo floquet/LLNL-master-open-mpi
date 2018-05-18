@@ -266,3 +266,7 @@
 ==> Executing phase: 'autoreconf'
 ==> Executing phase: 'configure'
 ==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 2.51s.  Build: 12m 46.85s.  Total: 12m 49.35s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-8.1.0/openmpi-3.1.0-7fksmal3f6naa7b2cqxw3jhywxwcvqfe

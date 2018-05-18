@@ -1,0 +1,272 @@
+==> Installing libsigsegv
+==> Fetching https://ftp.gnu.org/gnu/libsigsegv/libsigsegv-2.11.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-y27kygqsif6ekny2sshlxy25zbjik2o7/libsigsegv-2.11.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libsigsegv-2.11-y27kygqsif6ekny2sshlxy25zbjik2o7
+==> No patches needed for libsigsegv
+==> Building libsigsegv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libsigsegv
+  Fetch: 1.26s.  Build: 9.23s.  Total: 10.49s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/libsigsegv-2.11-y27kygqsif6ekny2sshlxy25zbjik2o7
+==> Installing m4
+==> Fetching https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-ggy6pduin3a5f3vgfbxanib6rzxpmk6v/m4-1.4.18.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-ggy6pduin3a5f3vgfbxanib6rzxpmk6v
+==> Applied patch gnulib-pgi.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed m4
+  Fetch: 1.81s.  Build: 40.16s.  Total: 41.97s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/m4-1.4.18-ggy6pduin3a5f3vgfbxanib6rzxpmk6v
+==> Installing libtool
+==> Fetching http://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libtool-2.4.6-bkpo72lyo64nz622cwdybvfjnrb5xmnr/libtool-2.4.6.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libtool-2.4.6-bkpo72lyo64nz622cwdybvfjnrb5xmnr
+==> No patches needed for libtool
+==> Building libtool [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libtool
+  Fetch: 2.65s.  Build: 13.43s.  Total: 16.08s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/libtool-2.4.6-bkpo72lyo64nz622cwdybvfjnrb5xmnr
+==> Installing pkgconf
+==> Fetching http://distfiles.alpinelinux.org/distfiles/pkgconf-1.4.0.tar.xz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/pkgconf-1.4.0-jg3ubfdjfxl5hpq3dcc72qonv2qiuzkj/pkgconf-1.4.0.tar.xz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/pkgconf-1.4.0-jg3ubfdjfxl5hpq3dcc72qonv2qiuzkj
+==> No patches needed for pkgconf
+==> Building pkgconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pkgconf
+  Fetch: 2.20s.  Build: 7.29s.  Total: 9.50s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/pkgconf-1.4.0-jg3ubfdjfxl5hpq3dcc72qonv2qiuzkj
+==> Installing util-macros
+==> Fetching https://www.x.org/archive/individual/util/util-macros-1.19.1.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/util-macros-1.19.1-owayhv4lfmbg2icmaph7w5ggc2gb4wom/util-macros-1.19.1.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/util-macros-1.19.1-owayhv4lfmbg2icmaph7w5ggc2gb4wom
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.39s.  Build: 1.83s.  Total: 2.22s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/util-macros-1.19.1-owayhv4lfmbg2icmaph7w5ggc2gb4wom
+==> Installing libpciaccess
+==> Fetching http://xorg.freedesktop.org/archive/individual/lib/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libpciaccess-0.13.5-tg7kj2kc4ctiyiwpqhe3ndle63yfc244/libpciaccess-0.13.5.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libpciaccess-0.13.5-tg7kj2kc4ctiyiwpqhe3ndle63yfc244
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.62s.  Build: 9.73s.  Total: 10.35s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/libpciaccess-0.13.5-tg7kj2kc4ctiyiwpqhe3ndle63yfc244
+==> Installing xz
+==> Fetching http://tukaani.org/xz/xz-5.2.3.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/xz-5.2.3-fzlop2s5sgegouzucd5ijp4wbe2zkrs4/xz-5.2.3.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/xz-5.2.3-fzlop2s5sgegouzucd5ijp4wbe2zkrs4
+==> No patches needed for xz
+==> Building xz [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed xz
+  Fetch: 3.52s.  Build: 19.05s.  Total: 22.57s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/xz-5.2.3-fzlop2s5sgegouzucd5ijp4wbe2zkrs4
+==> Installing zlib
+==> Fetching http://zlib.net/fossils/zlib-1.2.11.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-4ec2ynqlhb5eeeeweo2rwliinl73tfks/zlib-1.2.11.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-4ec2ynqlhb5eeeeweo2rwliinl73tfks
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.45s.  Build: 2.48s.  Total: 2.93s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/zlib-1.2.11-4ec2ynqlhb5eeeeweo2rwliinl73tfks
+==> Installing libxml2
+==> Fetching http://xmlsoft.org/sources/libxml2-2.9.4.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libxml2-2.9.4-ibzsyu3tory3gf5lswwnx3ar2lrwqxdk/libxml2-2.9.4.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/libxml2-2.9.4-ibzsyu3tory3gf5lswwnx3ar2lrwqxdk
+==> No patches needed for libxml2
+==> Building libxml2 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libxml2
+  Fetch: 5.95s.  Build: 37.43s.  Total: 43.38s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/libxml2-2.9.4-ibzsyu3tory3gf5lswwnx3ar2lrwqxdk
+==> Installing ncurses
+==> Fetching http://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.0.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/ncurses-6.0-i4w5jqn4a44v5qxlgvvldvxfnxu5vfrl/ncurses-6.0.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/ncurses-6.0-i4w5jqn4a44v5qxlgvvldvxfnxu5vfrl
+==> Applied patch sed_pgi.patch
+==> Applied patch patch_gcc_5.txt
+==> Building ncurses [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ncurses
+  Fetch: 2.07s.  Build: 1m 5.16s.  Total: 1m 7.23s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/ncurses-6.0-i4w5jqn4a44v5qxlgvvldvxfnxu5vfrl
+==> Installing readline
+==> Fetching https://ftp.gnu.org/gnu/readline/readline-7.0.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/readline-7.0-liugxmdi7fn7cjrvs73qlwyzidc4cwwc/readline-7.0.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/readline-7.0-liugxmdi7fn7cjrvs73qlwyzidc4cwwc
+==> No patches needed for readline
+==> Building readline [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed readline
+  Fetch: 2.03s.  Build: 12.62s.  Total: 14.65s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/readline-7.0-liugxmdi7fn7cjrvs73qlwyzidc4cwwc
+==> Installing gdbm
+==> Fetching http://ftp.gnu.org/gnu/gdbm/gdbm-1.14.1.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/gdbm-1.14.1-w4ie34reoowajlopkn2r6jwehcy2zduv/gdbm-1.14.1.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/gdbm-1.14.1-w4ie34reoowajlopkn2r6jwehcy2zduv
+==> No patches needed for gdbm
+==> Building gdbm [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed gdbm
+  Fetch: 0.89s.  Build: 12.15s.  Total: 13.04s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/gdbm-1.14.1-w4ie34reoowajlopkn2r6jwehcy2zduv
+==> Installing perl
+==> Fetching http://www.cpan.org/src/5.0/perl-5.26.2.tar.gz
+==> Fetching http://search.cpan.org/CPAN/authors/id/M/MI/MIYAGAWA/App-cpanminus-1.7042.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/perl-5.26.2.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/resource-cpanm-wxelq7kug4tsw5pspcw66mkko7m3jcgj/App-cpanminus-1.7042.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/resource-cpanm-wxelq7kug4tsw5pspcw66mkko7m3jcgj
+==> Moving resource stage
+	source : /g/g13/topa1/spack/spack.ray.current/var/spack/stage/resource-cpanm-wxelq7kug4tsw5pspcw66mkko7m3jcgj/App-cpanminus-1.7042/
+	destination : /g/g13/topa1/spack/spack.ray.current/var/spack/stage/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/perl-5.26.2/cpanm/cpanm
+==> No patches needed for perl
+==> Building perl [Package]
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/pod2man
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/pod2text
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/pod2usage
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/podchecker
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/podselect
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/cpan
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/corelist
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/enc2xs
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/encguess
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/h2ph
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/h2xs
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/instmodsh
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/json_pp
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/libnetcfg
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/perlbug
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/perldoc
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/perlivp
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/piconv
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/pl2pm
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/pod2html
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/prove
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/ptar
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/ptardiff
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/ptargrep
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/shasum
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/splain
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/xsubpp
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/zipdetails
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj/bin/cpanm
+==> Successfully installed perl
+  Fetch: 2.66s.  Build: 2m 43.92s.  Total: 2m 46.58s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/perl-5.26.2-wxelq7kug4tsw5pspcw66mkko7m3jcgj
+==> Installing autoconf
+==> Fetching http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur/autoconf-2.69.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur
+==> Ran patch() for autoconf
+==> Building autoconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur/bin/autom4te
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur/bin/autoheader
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur/bin/autoreconf
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur/bin/ifnames
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur/bin/autoscan
+==> Warning: Patched overlong shebang in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur/bin/autoupdate
+==> Successfully installed autoconf
+  Fetch: 1.59s.  Build: 5.30s.  Total: 6.89s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/autoconf-2.69-mv5pkhr7slyu3y7gqnhvqh3t67i6xuur
+==> Installing automake
+==> Fetching http://ftp.gnu.org/gnu/automake/automake-1.16.1.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/automake-1.16.1-6lhebns6ubn6fwfdko5xr5fjguk73s52/automake-1.16.1.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/automake-1.16.1-6lhebns6ubn6fwfdko5xr5fjguk73s52
+==> Ran patch() for automake
+==> Building automake [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed automake
+  Fetch: 1.56s.  Build: 5.59s.  Total: 7.15s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/automake-1.16.1-6lhebns6ubn6fwfdko5xr5fjguk73s52
+==> Installing numactl
+==> Fetching https://github.com/numactl/numactl/archive/v2.0.11.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/numactl-2.0.11-6zllbe5esttyjsvucekbml3gnehudcrz/v2.0.11.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/numactl-2.0.11-6zllbe5esttyjsvucekbml3gnehudcrz
+==> No patches needed for numactl
+==> Building numactl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed numactl
+  Fetch: 1.00s.  Build: 19.30s.  Total: 20.30s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/numactl-2.0.11-6zllbe5esttyjsvucekbml3gnehudcrz
+==> Installing hwloc
+==> Fetching http://www.open-mpi.org/software/hwloc/v1.11/downloads/hwloc-1.11.9.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/hwloc-1.11.9-gzsvcx5sr2wj4l5zqx25cxglprfigpos/hwloc-1.11.9.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/hwloc-1.11.9-gzsvcx5sr2wj4l5zqx25cxglprfigpos
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 3.10s.  Build: 33.59s.  Total: 36.69s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/hwloc-1.11.9-gzsvcx5sr2wj4l5zqx25cxglprfigpos
+==> Installing openmpi
+==> Fetching http://www.open-mpi.org/software/ompi/v3.1/downloads/openmpi-3.1.0.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-3.1.0-hrdl5im5om23lpixrawy3ixvbswdjhky/openmpi-3.1.0.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-3.1.0-hrdl5im5om23lpixrawy3ixvbswdjhky
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 2.23s.  Build: 12m 14.70s.  Total: 12m 16.94s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.1.0/openmpi-3.1.0-hrdl5im5om23lpixrawy3ixvbswdjhky
