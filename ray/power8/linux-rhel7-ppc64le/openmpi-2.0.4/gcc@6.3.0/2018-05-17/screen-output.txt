@@ -1,0 +1,30 @@
+==> libsigsegv is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/libsigsegv-2.11-zhzd2xdligui4hlv4t3kyrrpsj7y2fd5
+==> m4 is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/m4-1.4.18-63kbp2clap5wzfpkwsfp7rvshzqg4i2b
+==> libtool is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/libtool-2.4.6-hiwwyhmpoejuksoputyevwn5segahdg5
+==> pkgconf is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/pkgconf-1.4.0-6a4ora6et77mu6zu36crnzlc6gj7lzxl
+==> util-macros is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/util-macros-1.19.1-75jknatq5e5drgbpqbvfbfzt64lsqubh
+==> libpciaccess is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/libpciaccess-0.13.5-z6nerdqmw2prmwq3pkaemof2p2j7ecis
+==> xz is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/xz-5.2.3-sruzo6ytxl3asezq5ihmheq3h2ncoqka
+==> zlib is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/zlib-1.2.11-pgfkmlvjfchxmfb376bjrbyljx75qdtj
+==> libxml2 is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/libxml2-2.9.4-uj7jhf7q4x4ho2o3ldp4juhfzpp4v6vr
+==> ncurses is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/ncurses-6.0-hi37wtwqqhfg7k7n2vbgtvw4krfmko2c
+==> readline is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/readline-7.0-3e3oa56nzwyg6eit2gnegmfmwit7fv3j
+==> gdbm is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/gdbm-1.14.1-chde3vxgtdpvvpajfifu7skvzx7nq2o2
+==> perl is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/perl-5.26.2-ewfw3m5iwkpdxokesguhdfmg4fepfojp
+==> autoconf is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/autoconf-2.69-sybhhw3ysfir3xohnp64ofchnzisaicr
+==> automake is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/automake-1.16.1-zfshwy3osakwpmawynd7q6jrt5lfmc4w
+==> numactl is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/numactl-2.0.11-oo72z6c2gmwbhnda5zwy4cvd3435qqv6
+==> hwloc is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/hwloc-1.11.9-sefd623kamlgjscif7rolxekoanxdikk
+==> Installing openmpi
+==> Fetching http://www.open-mpi.org/software/ompi/v2.0/downloads/openmpi-2.0.4.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.4-77rnezf7c7swhd3wtcjcg46nawox46ef/openmpi-2.0.4.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.4-77rnezf7c7swhd3wtcjcg46nawox46ef
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 2.35s.  Build: 10m 32.32s.  Total: 10m 34.67s.
+[+] /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-6.3.0/openmpi-2.0.4-77rnezf7c7swhd3wtcjcg46nawox46ef

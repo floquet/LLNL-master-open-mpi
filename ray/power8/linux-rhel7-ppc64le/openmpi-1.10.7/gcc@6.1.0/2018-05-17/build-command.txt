@@ -1,0 +1,2 @@
+spack install openmpi @ 1.10.7 % gcc@6.1.0  arch=linux-rhel7-ppc64le > /g/g13/topa1/repos/github/LLNL-master-open-mpi/ray/power8/linux-rhel7-ppc64le/openmpi-1.10.7/gcc@6.1.0/2018-05-17/screen-output.txt 2>&1
+elapsed time for building openmpi @ 1.10.7 % gcc@6.1.0 = 771 s

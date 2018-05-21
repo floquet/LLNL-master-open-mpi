@@ -1,0 +1,185 @@
+spec:
+- openmpi:
+    version: 2.1.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 4.9.2
+    namespace: builtin
+    parameters:
+      cuda: false
+      fabrics:
+      - verbs
+      java: false
+      memchecker: false
+      pmi: false
+      schedulers:
+      - ''
+      sqlite3: false
+      thread_multiple: false
+      vt: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      hwloc:
+        hash: bisstrivbwz7shqh72pj64bye65amslp
+        type:
+        - build
+        - link
+      numactl:
+        hash: w7mbq64fx4ztxaaye25a2a5kaoge3pjk
+        type:
+        - build
+        - link
+    hash: zqzuxbfljnfpfquiffbuogdoxom6hxlv
+- hwloc:
+    version: 1.11.9
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 4.9.2
+    namespace: builtin
+    parameters:
+      cairo: false
+      cuda: false
+      libxml2: true
+      pci: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      libpciaccess:
+        hash: o3oqokuwe4oeh5ehvnkftmgrfkuweald
+        type:
+        - build
+        - link
+      libxml2:
+        hash: gorygffkfsankucg3p4lradwndor63ub
+        type:
+        - build
+        - link
+      numactl:
+        hash: w7mbq64fx4ztxaaye25a2a5kaoge3pjk
+        type:
+        - build
+        - link
+    hash: bisstrivbwz7shqh72pj64bye65amslp
+- libpciaccess:
+    version: 0.13.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 4.9.2
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: o3oqokuwe4oeh5ehvnkftmgrfkuweald
+- libxml2:
+    version: 2.9.4
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 4.9.2
+    namespace: builtin
+    parameters:
+      python: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      xz:
+        hash: ei7ilsbdx4riivfm7itgyn74hb6x6bqy
+        type:
+        - build
+        - link
+      zlib:
+        hash: h4p7imrx4duiplokn3od6g37vxxprne4
+        type:
+        - build
+        - link
+    hash: gorygffkfsankucg3p4lradwndor63ub
+- xz:
+    version: 5.2.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 4.9.2
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: ei7ilsbdx4riivfm7itgyn74hb6x6bqy
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 4.9.2
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: h4p7imrx4duiplokn3od6g37vxxprne4
+- numactl:
+    version: 2.0.11
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 4.9.2
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: w7mbq64fx4ztxaaye25a2a5kaoge3pjk

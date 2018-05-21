@@ -1,0 +1,76 @@
+==> libsigsegv is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-16.1/libsigsegv-2.11-dm6rjuzq56kwi4wz2t6fbowlf7bx6mie
+==> Installing m4
+==> Fetching https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6/m4-1.4.18.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6
+==> Applied patch gnulib-pgi.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+6 errors found in build log:
+     624      CC       printf-parse.o
+     625      GEN      charset.alias
+     626      GEN      ref-add.sed
+     627      GEN      ref-del.sed
+     628      CC       glthread/lock.o
+     629    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opw
+            pm7jaq7wbxwu7jwtoibdq6/m4-1.4.18/lib/fatal-signal.c:30:
+  >> 630    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6
+            /m4-1.4.18/lib/xalloc.h:107:7: error: 1540-2993 The builtin "__builtin_mul_overflow" is not sup
+            ported.
+     631      if (xalloc_oversized (n, s))
+     632          ^
+     633    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6
+            /m4-1.4.18/lib/xalloc-oversized.h:60:10: note: expanded from macro 'xalloc_oversized'
+     634             __builtin_mul_overflow (n, s, &__xalloc_count); }))
+     635             ^
+     636    1 error generated.
+  >> 637    Error while processing /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44op
+            wpm7jaq7wbxwu7jwtoibdq6/m4-1.4.18/lib/fatal-signal.c.
+     638    make[3]: *** [Makefile:1910: fatal-signal.o] Error 1
+     639    make[3]: *** Waiting for unfinished jobs....
+     640    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opw
+            pm7jaq7wbxwu7jwtoibdq6/m4-1.4.18/lib/xmalloc.c:22:
+  >> 641    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6
+            /m4-1.4.18/lib/xalloc.h:107:7: error: 1540-2993 The builtin "__builtin_mul_overflow" is not sup
+            ported.
+     642      if (xalloc_oversized (n, s))
+     643          ^
+     644    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6
+            /m4-1.4.18/lib/xalloc-oversized.h:60:10: note: expanded from macro 'xalloc_oversized'
+     645             __builtin_mul_overflow (n, s, &__xalloc_count); }))
+     646             ^
+     647    1 error generated.
+  >> 648    Error while processing /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44op
+            wpm7jaq7wbxwu7jwtoibdq6/m4-1.4.18/lib/xmalloc.c.
+     649    make[3]: *** [Makefile:1910: xmalloc.o] Error 1
+     650    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opw
+            pm7jaq7wbxwu7jwtoibdq6/m4-1.4.18/lib/clean-temp.c:42:
+  >> 651    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6
+            /m4-1.4.18/lib/xalloc.h:107:7: error: 1540-2993 The builtin "__builtin_mul_overflow" is not sup
+            ported.
+     652      if (xalloc_oversized (n, s))
+     653          ^
+     654    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6
+            /m4-1.4.18/lib/xalloc-oversized.h:60:10: note: expanded from macro 'xalloc_oversized'
+     655             __builtin_mul_overflow (n, s, &__xalloc_count); }))
+     656             ^
+     657    1 error generated.
+  >> 658    Error while processing /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44op
+            wpm7jaq7wbxwu7jwtoibdq6/m4-1.4.18/lib/clean-temp.c.
+     659    make[3]: *** [Makefile:1910: clean-temp.o] Error 1
+     660    make[3]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-_XLBTs/m4-1.4.18/spack-build
+            /lib'
+     661    make[2]: *** [Makefile:1674: all] Error 2
+     662    make[2]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-_XLBTs/m4-1.4.18/spack-build
+            /lib'
+     663    make[1]: *** [Makefile:1572: all-recursive] Error 1
+     664    make[1]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-_XLBTs/m4-1.4.18/spack-build
+            '
+
+See build log for details:
+  /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-2kccv44opwpm7jaq7wbxwu7jwtoibdq6/m4-1.4.18/spack-build.out

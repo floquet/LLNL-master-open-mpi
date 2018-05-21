@@ -1,0 +1,183 @@
+==> libsigsegv is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl_r-13.1/libsigsegv-2.11-bxsxofho67j3q232z3xqe52adgxvvfgi
+==> Installing m4
+==> Fetching https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck/m4-1.4.18.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck
+==> Applied patch gnulib-pgi.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+92 errors found in build log:
+     207    checking whether posix_spawnattr_setschedpolicy is supported... yes
+     208    checking whether posix_spawnattr_setschedparam is supported... yes
+     209    checking for sigset_t... yes
+     210    checking for SIGPIPE... yes
+     211    checking for inline... inline
+     212    checking for uid_t in sys/types.h... yes
+  >> 213    checking whether C symbols are prefixed with underscore at the linker level... grep: conftest.s
+            : No such file or directory
+     214    no
+     215    checking whether snprintf returns a byte count as in C99... yes
+     216    checking whether snprintf is declared... yes
+     217    checking for stdbool.h that conforms to C99... yes
+     218    checking for _Bool... yes
+     219    checking for wint_t... yes
+
+     ...
+
+     624      CC       printf-parse.o
+     625      CC       vasnprintf.o
+     626      GEN      charset.alias
+     627      GEN      ref-add.sed
+     628      GEN      ref-del.sed
+     629      CC       glthread/lock.o
+  >> 630    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 631    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 632    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 633    rm: cannot remove 'wcode-init-out.device': No such file or directory
+     634    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg5
+            4t4sw2454nrapiqy4wfsck/m4-1.4.18/lib/xmalloc.c:22:
+  >> 635    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck
+            /m4-1.4.18/lib/xalloc.h:107:7: error: 1540-2993 The builtin "__builtin_mul_overflow" is not sup
+            ported.
+     636      if (xalloc_oversized (n, s))
+     637          ^
+     638    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck
+            /m4-1.4.18/lib/xalloc-oversized.h:60:10: note: expanded from macro 'xalloc_oversized'
+     639             __builtin_mul_overflow (n, s, &__xalloc_count); }))
+     640             ^
+     641    1 error generated.
+  >> 642    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 643    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 644    Error while processing /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg
+            54t4sw2454nrapiqy4wfsck/m4-1.4.18/lib/xmalloc.c.
+     645    make[3]: *** [Makefile:1910: xmalloc.o] Error 1
+     646    make[3]: *** Waiting for unfinished jobs....
+     647    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg5
+            4t4sw2454nrapiqy4wfsck/m4-1.4.18/lib/fatal-signal.c:30:
+  >> 648    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck
+            /m4-1.4.18/lib/xalloc.h:107:7: error: 1540-2993 The builtin "__builtin_mul_overflow" is not sup
+            ported.
+     649      if (xalloc_oversized (n, s))
+     650          ^
+     651    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck
+            /m4-1.4.18/lib/xalloc-oversized.h:60:10: note: expanded from macro 'xalloc_oversized'
+     652             __builtin_mul_overflow (n, s, &__xalloc_count); }))
+     653             ^
+     654    1 error generated.
+  >> 655    Error while processing /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg
+            54t4sw2454nrapiqy4wfsck/m4-1.4.18/lib/fatal-signal.c.
+     656    make[3]: *** [Makefile:1910: fatal-signal.o] Error 1
+  >> 657    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 658    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 659    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 660    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 661    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 662    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 663    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 664    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 665    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 666    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 667    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 668    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 669    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 670    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 671    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 672    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 673    rm: cannot remove 'wcode-init-out.host'rm: : No such file or directory
+  >> 674    cannot remove 'wcode-init-out.host': No such file or directory
+  >> 675    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 676    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 677    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 678    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 679    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 680    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 681    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 682    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 683    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 684    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 685    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 686    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 687    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 688    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 689    rm: cannot remove 'wcode-init-out.device': No such file or directory
+     690    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg5
+            4t4sw2454nrapiqy4wfsck/m4-1.4.18/lib/clean-temp.c:42:
+  >> 691    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck
+            /m4-1.4.18/lib/xalloc.h:107:7: error: 1540-2993 The builtin "__builtin_mul_overflow" is not sup
+            ported.
+     692      if (xalloc_oversized (n, s))
+     693          ^
+     694    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck
+            /m4-1.4.18/lib/xalloc-oversized.h:60:10: note: expanded from macro 'xalloc_oversized'
+     695             __builtin_mul_overflow (n, s, &__xalloc_count); }))
+     696             ^
+     697    1 error generated.
+  >> 698    Error while processing /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg
+            54t4sw2454nrapiqy4wfsck/m4-1.4.18/lib/clean-temp.c.
+  >> 699    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 700    rm: cannot remove 'wcode-init-out.device': No such file or directory
+     701    make[3]: *** [Makefile:1910: clean-temp.o] Error 1
+  >> 702    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 703    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 704    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 705    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 706    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 707    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 708    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 709    rm: rm: cannot remove 'wcode-init-out.host'cannot remove 'wcode-init-out.host': No such file or
+             directory: No such file or directory
+     710    
+  >> 711    rm: rm: cannot remove 'wcode-init-out.device'cannot remove 'wcode-init-out.device': No such fil
+            e or directory
+  >> 712    : No such file or directory
+  >> 713    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 714    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 715    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 716    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 717    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 718    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 719    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 720    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 721    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 722    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 723    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 724    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 725    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 726    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 727    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 728    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 729    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 730    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 731    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 732    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 733    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 734    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 735    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 736    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 737    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 738    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 739    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 740    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 741    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 742    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 743    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 744    rm: cannot remove 'wcode-init-out.device': No such file or directory
+  >> 745    rm: cannot remove 'wcode-init-out.host': No such file or directory
+  >> 746    rm: cannot remove 'wcode-init-out.device': No such file or directory
+     747    make[3]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-13Jc7f/m4-1.4.18/spack-build
+            /lib'
+     748    make[2]: *** [Makefile:1674: all] Error 2
+     749    make[2]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-13Jc7f/m4-1.4.18/spack-build
+            /lib'
+     750    make[1]: *** [Makefile:1572: all-recursive] Error 1
+     751    make[1]: Leaving directory '/var/tmp/topa1/spack-stage/spack-stage-13Jc7f/m4-1.4.18/spack-build
+            '
+     752    make: *** [Makefile:1528: all] Error 2
+
+See build log for details:
+  /g/g13/topa1/spack/spack.ray.current/var/spack/stage/m4-1.4.18-5uhqudebg54t4sw2454nrapiqy4wfsck/m4-1.4.18/spack-build.out

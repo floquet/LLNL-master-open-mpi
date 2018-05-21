@@ -1,0 +1,348 @@
+==> libsigsegv is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/libsigsegv-2.11-e75veezfbyiuj7d2bp2bxcqelxc7jbgv
+==> m4 is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/m4-1.4.18-u4wsw7vhiizhmd5z5r6dt3wi2ty37qcr
+==> libtool is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/libtool-2.4.6-pq4sh33rz6w6ab5gyagyczcij6djkp57
+==> pkgconf is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/pkgconf-1.4.0-4oskwdakd76op3erb2sgpzcijh2pb54y
+==> util-macros is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/util-macros-1.19.1-niognndjhhiiz5cxe4rztvj3miidbdhd
+==> libpciaccess is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/libpciaccess-0.13.5-rndnp42bouidiyuxxhol6qh3fbego7qk
+==> xz is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/xz-5.2.3-vyw6wpske7bbb2ivhmcxlawa3cwqyj4h
+==> zlib is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/zlib-1.2.11-ci2dab7u6durwfexkiq3t44mibtfqobp
+==> libxml2 is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/libxml2-2.9.4-vfs2wwxio2fnlzqmqxzbuxy6c2ctlzdy
+==> ncurses is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/ncurses-6.0-hmcaouxcnlahgvl64y4gzcwj6ljr5hc2
+==> readline is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/readline-7.0-zaebz3ayt26fmuabaggo5jdx6cazjfhg
+==> gdbm is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/gdbm-1.14.1-nmwxghkdxdftx24pfnepiyfy4skztojv
+==> perl is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/perl-5.26.2-dcrjvk4bf4cd2ek7elelymlewkovvync
+==> autoconf is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/autoconf-2.69-pm4prz2b7xu6upvlxdgreq3h4lcp42ke
+==> automake is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/automake-1.16.1-ud6qgexlyecxltgclhcglvsomty7o37d
+==> numactl is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/numactl-2.0.11-jok4u6wq4bznazt3bdv2smyfqmqhtmt2
+==> hwloc is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-5.3.0/hwloc-1.11.9-3qmudystghudzydqqdkmsmsj7gi2ug2y
+==> Installing openmpi
+==> Fetching http://www.open-mpi.org/software/ompi/v2.0/downloads/openmpi-2.0.0.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwphrdeh
+==> Applied patch fix_multidef_pmi_class.patch
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+21 errors found in build log:
+     7009      CXX      file.lo
+     7010    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7011                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/opal/class/opal_object.h:123,
+     7012                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/errhandler/errhandler.h:32,
+     7013                     from mpicxx.cc:37:
+     7014    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h: In function 'void* opal_thread_swap_ptr(volatile voi
+             d*, void*)':
+  >> 7015    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7016     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7017                                                                                                  
+                        ^
+     7018    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h:337:16: note: in expansion of macro 'opal_atomic_swap
+             _ptr'
+     7019             return opal_atomic_swap_ptr (ptr, newvalue);
+     7020                    ^
+     7021    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7022                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/opal/class/opal_object.h:123,
+     7023                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/opal/class/opal_list.h:71,
+     7024                     from file.cc:19:
+     7025    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h: In function 'void* opal_thread_swap_ptr(volatile voi
+             d*, void*)':
+  >> 7026    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7027     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7028                                                                                                  
+                        ^
+     7029    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h:337:16: note: in expansion of macro 'opal_atomic_swap
+             _ptr'
+     7030             return opal_atomic_swap_ptr (ptr, newvalue);
+     7031                    ^
+     7032    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7033                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/opal/class/opal_object.h:123,
+     7034                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/communicator.h:32,
+     7035                     from win.cc:19:
+     7036    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h: In function 'void* opal_thread_swap_ptr(volatile voi
+             d*, void*)':
+  >> 7037    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7038     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7039                                                                                                  
+                        ^
+     7040    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h:337:16: note: in expansion of macro 'opal_atomic_swap
+             _ptr'
+     7041             return opal_atomic_swap_ptr (ptr, newvalue);
+     7042                    ^
+     7043    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7044                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/opal/class/opal_object.h:123,
+     7045                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/communicator.h:32,
+     7046                     from datatype.cc:19:
+     7047    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h: In function 'void* opal_thread_swap_ptr(volatile voi
+             d*, void*)':
+  >> 7048    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7049     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7050                                                                                                  
+                        ^
+     7051    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h:337:16: note: in expansion of macro 'opal_atomic_swap
+             _ptr'
+     7052             return opal_atomic_swap_ptr (ptr, newvalue);
+     7053                    ^
+     7054    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7055                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/opal/class/opal_object.h:123,
+     7056                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/communicator.h:32,
+     7057                     from comm.cc:30:
+     7058    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h: In function 'void* opal_thread_swap_ptr(volatile voi
+             d*, void*)':
+  >> 7059    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7060     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7061                                                                                                  
+                        ^
+     7062    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h:337:16: note: in expansion of macro 'opal_atomic_swap
+             _ptr'
+     7063             return opal_atomic_swap_ptr (ptr, newvalue);
+     7064                    ^
+     7065    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7066                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/opal/class/opal_object.h:123,
+     7067                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/errhandler/errhandler.h:32,
+     7068                     from intercepts.cc:27:
+     7069    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h: In function 'void* opal_thread_swap_ptr(volatile voi
+             d*, void*)':
+  >> 7070    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7071     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7072                                                                                                  
+                        ^
+     7073    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/mutex.h:337:16: note: in expansion of macro 'opal_atomic_swap
+             _ptr'
+     7074             return opal_atomic_swap_ptr (ptr, newvalue);
+     7075                    ^
+     7076    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h: In function 'opal_list_item_t* opal_lifo_pop_atomi
+             c(opal_lifo_t*)':
+  >> 7077    ../../../opal/include/opal/sys/atomic_impl.h:288:77: error: 'opal_atomic_ll_64' was not declar
+             ed in this scope
+     7078     #define opal_atomic_ll_ptr(addr) (void *) opal_atomic_ll_64((int64_t *) addr)
+     7079                                                                                 ^
+     7080    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:214:37: note: in expansion of macro 'opal_atomic_ll
+             _ptr'
+     7081             item = (opal_list_item_t *) opal_atomic_ll_ptr (&lifo->opal_lifo_head.data.item);
+     7082                                         ^
+  >> 7083    ../../../opal/include/opal/sys/atomic_impl.h:289:94: error: 'opal_atomic_sc_64' was not declar
+             ed in this scope
+     7084     #define opal_atomic_sc_ptr(addr, newval) opal_atomic_sc_64((int64_t *) addr, (int64_t) newval
+             )
+     7085                                                                                                  
+             ^
+     7086    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:220:15: note: in expansion of macro 'opal_atomic_sc
+             _ptr'
+     7087         } while (!opal_atomic_sc_ptr (&lifo->opal_lifo_head.data.item, next));
+     7088                   ^
+     7089    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/request/request.h:38:0,
+     7090                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/mca/io/io.h:31,
+     7091                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/file/file.h:32,
+     7092                     from file.cc:20:
+     7093    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h: In function 'void wait_sync_update(ompi_wait_syn
+             c_t*, int, int)':
+  >> 7094    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h:114:45: error: 'opal_atomic_swap_32' was not decl
+             ared in this scope
+     7095             opal_atomic_swap_32 (&sync->count, 0);
+     7096                                                 ^
+     7097    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h: In function 'opal_list_item_t* opal_lifo_pop_atomi
+             c(opal_lifo_t*)':
+  >> 7098    ../../../opal/include/opal/sys/atomic_impl.h:288:77: error: 'opal_atomic_ll_64' was not declar
+             ed in this scope
+     7099     #define opal_atomic_ll_ptr(addr) (void *) opal_atomic_ll_64((int64_t *) addr)
+     7100                                                                                 ^
+     7101    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:214:37: note: in expansion of macro 'opal_atomic_ll
+             _ptr'
+     7102             item = (opal_list_item_t *) opal_atomic_ll_ptr (&lifo->opal_lifo_head.data.item);
+     7103                                         ^
+  >> 7104    ../../../opal/include/opal/sys/atomic_impl.h:289:94: error: 'opal_atomic_sc_64' was not declar
+             ed in this scope
+     7105     #define opal_atomic_sc_ptr(addr, newval) opal_atomic_sc_64((int64_t *) addr, (int64_t) newval
+             )
+     7106                                                                                                  
+             ^
+     7107    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:220:15: note: in expansion of macro 'opal_atomic_sc
+             _ptr'
+     7108         } while (!opal_atomic_sc_ptr (&lifo->opal_lifo_head.data.item, next));
+     7109                   ^
+     7110    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h: In function 'opal_list_item_t* opal_lifo_pop_atomi
+             c(opal_lifo_t*)':
+  >> 7111    ../../../opal/include/opal/sys/atomic_impl.h:288:77: error: 'opal_atomic_ll_64' was not declar
+             ed in this scope
+     7112     #define opal_atomic_ll_ptr(addr) (void *) opal_atomic_ll_64((int64_t *) addr)
+     7113                                                                                 ^
+     7114    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:214:37: note: in expansion of macro 'opal_atomic_ll
+             _ptr'
+     7115             item = (opal_list_item_t *) opal_atomic_ll_ptr (&lifo->opal_lifo_head.data.item);
+     7116                                         ^
+  >> 7117    ../../../opal/include/opal/sys/atomic_impl.h:289:94: error: 'opal_atomic_sc_64' was not declar
+             ed in this scope
+     7118     #define opal_atomic_sc_ptr(addr, newval) opal_atomic_sc_64((int64_t *) addr, (int64_t) newval
+             )
+     7119                                                                                                  
+             ^
+     7120    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:220:15: note: in expansion of macro 'opal_atomic_sc
+             _ptr'
+     7121         } while (!opal_atomic_sc_ptr (&lifo->opal_lifo_head.data.item, next));
+     7122                   ^
+     7123    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h: In function 'opal_list_item_t* opal_lifo_pop_atomi
+             c(opal_lifo_t*)':
+  >> 7124    ../../../opal/include/opal/sys/atomic_impl.h:288:77: error: 'opal_atomic_ll_64' was not declar
+             ed in this scope
+     7125     #define opal_atomic_ll_ptr(addr) (void *) opal_atomic_ll_64((int64_t *) addr)
+     7126                                                                                 ^
+     7127    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:214:37: note: in expansion of macro 'opal_atomic_ll
+             _ptr'
+     7128             item = (opal_list_item_t *) opal_atomic_ll_ptr (&lifo->opal_lifo_head.data.item);
+     7129                                         ^
+  >> 7130    ../../../opal/include/opal/sys/atomic_impl.h:289:94: error: 'opal_atomic_sc_64' was not declar
+             ed in this scope
+     7131     #define opal_atomic_sc_ptr(addr, newval) opal_atomic_sc_64((int64_t *) addr, (int64_t) newval
+             )
+     7132                                                                                                  
+             ^
+     7133    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:220:15: note: in expansion of macro 'opal_atomic_sc
+             _ptr'
+     7134         } while (!opal_atomic_sc_ptr (&lifo->opal_lifo_head.data.item, next));
+     7135                   ^
+     7136    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/request/request.h:38:0,
+     7137                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/comm_request.h:17,
+     7138                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/communicator.h:35,
+     7139                     from win.cc:19:
+     7140    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h: In function 'void wait_sync_update(ompi_wait_syn
+             c_t*, int, int)':
+  >> 7141    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h:114:45: error: 'opal_atomic_swap_32' was not decl
+             ared in this scope
+     7142             opal_atomic_swap_32 (&sync->count, 0);
+     7143                                                 ^
+     7144    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/request/request.h:38:0,
+     7145                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/comm_request.h:17,
+     7146                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/communicator.h:35,
+     7147                     from datatype.cc:19:
+     7148    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h: In function 'void wait_sync_update(ompi_wait_syn
+             c_t*, int, int)':
+  >> 7149    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h:114:45: error: 'opal_atomic_swap_32' was not decl
+             ared in this scope
+     7150             opal_atomic_swap_32 (&sync->count, 0);
+     7151                                                 ^
+     7152    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/request/request.h:38:0,
+     7153                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/comm_request.h:17,
+     7154                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/communicator.h:35,
+     7155                     from comm.cc:30:
+     7156    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h: In function 'void wait_sync_update(ompi_wait_syn
+             c_t*, int, int)':
+  >> 7157    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h:114:45: error: 'opal_atomic_swap_32' was not decl
+             ared in this scope
+     7158             opal_atomic_swap_32 (&sync->count, 0);
+     7159                                                 ^
+     7160    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h: In function 'opal_list_item_t* opal_lifo_pop_atomi
+             c(opal_lifo_t*)':
+  >> 7161    ../../../opal/include/opal/sys/atomic_impl.h:288:77: error: 'opal_atomic_ll_64' was not declar
+             ed in this scope
+     7162     #define opal_atomic_ll_ptr(addr) (void *) opal_atomic_ll_64((int64_t *) addr)
+     7163                                                                                 ^
+     7164    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:214:37: note: in expansion of macro 'opal_atomic_ll
+             _ptr'
+     7165             item = (opal_list_item_t *) opal_atomic_ll_ptr (&lifo->opal_lifo_head.data.item);
+     7166                                         ^
+  >> 7167    ../../../opal/include/opal/sys/atomic_impl.h:289:94: error: 'opal_atomic_sc_64' was not declar
+             ed in this scope
+     7168     #define opal_atomic_sc_ptr(addr, newval) opal_atomic_sc_64((int64_t *) addr, (int64_t) newval
+             )
+     7169                                                                                                  
+             ^
+     7170    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/class/opal_lifo.h:220:15: note: in expansion of macro 'opal_atomic_sc
+             _ptr'
+     7171         } while (!opal_atomic_sc_ptr (&lifo->opal_lifo_head.data.item, next));
+     7172                   ^
+     7173    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/request/request.h:38:0,
+     7174                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/comm_request.h:17,
+     7175                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz
+             7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/ompi/communicator/communicator.h:35,
+     7176                     from intercepts.cc:28:
+     7177    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h: In function 'void wait_sync_update(ompi_wait_syn
+             c_t*, int, int)':
+  >> 7178    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwp
+             hrdeh/openmpi-2.0.0/opal/threads/wait_sync.h:114:45: error: 'opal_atomic_swap_32' was not decl
+             ared in this scope
+     7179             opal_atomic_swap_32 (&sync->count, 0);
+     7180                                                 ^
+     7181    make[2]: *** [Makefile:1807: mpicxx.lo] Error 1
+     7182    make[2]: *** Waiting for unfinished jobs....
+     7183    make[2]: *** [Makefile:1807: file.lo] Error 1
+     7184    make[2]: *** [Makefile:1807: win.lo] Error 1
+
+See build log for details:
+  /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.0-h4slz7k3a4cqvrvtb66gt45ptwphrdeh/openmpi-2.0.0/spack-build.out

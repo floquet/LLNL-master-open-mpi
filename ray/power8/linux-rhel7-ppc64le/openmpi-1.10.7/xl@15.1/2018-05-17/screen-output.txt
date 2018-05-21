@@ -1,0 +1,18 @@
+==> libsigsegv is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/libsigsegv-2.11-r3hws76qaq6txx7bnlvw6pi5e4ddlqhh
+==> m4 is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/m4-1.4.18-n5uazhegurhqqpt5opsh2o4zmvzlqfso
+==> libtool is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/libtool-2.4.6-ovtfcp7xyz6j4gk4zlxxboty3jq4t4j7
+==> pkgconf is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/pkgconf-1.4.0-tr2ow4yhffbrusv4vqcxzzacgxgdqa3j
+==> util-macros is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/util-macros-1.19.1-ihgoadwhoezvrf5tl6sss26lx34hbguj
+==> libpciaccess is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/libpciaccess-0.13.5-btkdxi6mklqxz7hyyyxr3eck4zqucbzn
+==> xz is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/xz-5.2.3-wrsstyxpx42qvnhqq4wfbqkx4fxbdkkv
+==> Installing zlib
+==> Fetching http://zlib.net/fossils/zlib-1.2.11.tar.gz
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-hqyn7r2ikqsj7gbrgety6moumfij4g5x/zlib-1.2.11.tar.gz
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-hqyn7r2ikqsj7gbrgety6moumfij4g5x
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/xl-15.1/zlib-1.2.11-hqyn7r2ikqsj7gbrgety6moumfij4g5x'
+See build log for details:
+  /g/g13/topa1/spack/spack.ray.current/var/spack/stage/zlib-1.2.11-hqyn7r2ikqsj7gbrgety6moumfij4g5x/zlib-1.2.11/spack-build.out

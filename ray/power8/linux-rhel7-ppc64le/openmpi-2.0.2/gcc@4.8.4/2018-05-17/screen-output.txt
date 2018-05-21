@@ -1,0 +1,439 @@
+==> libsigsegv is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/libsigsegv-2.11-okl3blzqapcbea4io3d6jexl7ncgttmu
+==> m4 is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/m4-1.4.18-ivhx7boy36refklsiib2crmx3vigo2tv
+==> libtool is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/libtool-2.4.6-gecbpmjsdqvy6plghnsn3egik2workrv
+==> pkgconf is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/pkgconf-1.4.0-djbdig555jbj3ctvkcu545hia7pz27gn
+==> util-macros is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/util-macros-1.19.1-eowtpezp54imqduizzet45bfbtqj2j4n
+==> libpciaccess is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/libpciaccess-0.13.5-dineqeo4i3qga2cztg6ivllrqhhvbwgw
+==> xz is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/xz-5.2.3-bae3apjpqw5vnid3muxxwiomgn4p3eba
+==> zlib is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/zlib-1.2.11-rt4whciuflcikts2f7uecux6hkj4bcj4
+==> libxml2 is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/libxml2-2.9.4-f2mhmhdbbdaqz4lqxqynprf4urqmhhb6
+==> ncurses is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/ncurses-6.0-nu4ma2osully5ipzn7eakte6nqaeyv7a
+==> readline is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/readline-7.0-njfxmnnhun7djfufg5ahyf6okuxojazl
+==> gdbm is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/gdbm-1.14.1-cmz7fosuaebcolmgpupopysltu5qgzh7
+==> perl is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/perl-5.26.2-u6nczp67j5nunf2qps2yk7hfcvc4dip6
+==> autoconf is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/autoconf-2.69-rubzsitbzqpzjs7cnysx6hkatlhwzy57
+==> automake is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/automake-1.16.1-asf7aw7xckovb2iybgjy7td2jkudawgo
+==> numactl is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/numactl-2.0.11-3qtd7pssvhefunwcxdibhca2fl5awv7w
+==> hwloc is already installed in /g/g13/topa1/spack/spack.ray.current/opt/spack/linux-rhel7-ppc64le/gcc-4.8.4/hwloc-1.11.9-qjrztrj6hoswozd2x5srqllkhead7k7y
+==> Installing openmpi
+==> Fetching http://www.open-mpi.org/software/ompi/v2.0/downloads/openmpi-2.0.2.tar.bz2
+==> Staging archive: /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2.tar.bz2
+==> Created stage in /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussksi4g5s
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+18 errors found in build log:
+     7228      CXX      file.lo
+     7229    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7230                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7231                     from cxx_glue.h:18,
+     7232                     from file.cc:19:
+     7233    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int32_t opal_thread_swap_32(vola
+             tile int32_t*, int32_t)':
+  >> 7234    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_32' was not d
+             eclared in this scope
+     7235             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7236                                                                                ^
+     7237    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:147:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7238     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int32_t, int32_t, 32)
+     7239     ^
+     7240    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7241                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7242                     from cxx_glue.h:18,
+     7243                     from datatype.cc:18:
+     7244    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int32_t opal_thread_swap_32(vola
+             tile int32_t*, int32_t)':
+  >> 7245    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_32' was not d
+             eclared in this scope
+     7246             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7247                                                                                ^
+     7248    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:147:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7249     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int32_t, int32_t, 32)
+     7250     ^
+     7251    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7252                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7253                     from cxx_glue.h:18,
+     7254                     from win.cc:18:
+     7255    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int32_t opal_thread_swap_32(vola
+             tile int32_t*, int32_t)':
+  >> 7256    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_32' was not d
+             eclared in this scope
+     7257             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7258                                                                                ^
+     7259    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:147:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7260     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int32_t, int32_t, 32)
+     7261     ^
+     7262    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7263                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:28,
+     7264                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128,
+     7265                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7266                     from cxx_glue.h:18,
+     7267                     from file.cc:19:
+     7268    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'void* opal_thread_swap_ptr(volat
+             ile intptr_t*, void*)':
+  >> 7269    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7270     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7271                                                                                                  
+                        ^
+     7272    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:16: note: in expansion of macro 'opal_atom
+             ic_swap_ptr'
+     7273             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7274                    ^
+     7275    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:148:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+
+     ...
+
+     7279                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:28,
+     7280                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128,
+     7281                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7282                     from cxx_glue.h:18,
+     7283                     from win.cc:18:
+     7284    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'void* opal_thread_swap_ptr(volat
+             ile intptr_t*, void*)':
+  >> 7285    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7286     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7287                                                                                                  
+                        ^
+     7288    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:16: note: in expansion of macro 'opal_atom
+             ic_swap_ptr'
+     7289             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7290                    ^
+     7291    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:148:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+
+     ...
+
+     7295                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:28,
+     7296                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128,
+     7297                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7298                     from cxx_glue.h:18,
+     7299                     from datatype.cc:18:
+     7300    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'void* opal_thread_swap_ptr(volat
+             ile intptr_t*, void*)':
+  >> 7301    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7302     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7303                                                                                                  
+                        ^
+     7304    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:16: note: in expansion of macro 'opal_atom
+             ic_swap_ptr'
+     7305             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7306                    ^
+     7307    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:148:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+
+     ...
+
+     7309     ^
+     7310    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7311                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7312                     from cxx_glue.h:18,
+     7313                     from comm.cc:27:
+     7314    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int32_t opal_thread_swap_32(vola
+             tile int32_t*, int32_t)':
+  >> 7315    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_32' was not d
+             eclared in this scope
+     7316             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7317                                                                                ^
+     7318    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:147:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7319     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int32_t, int32_t, 32)
+     7320     ^
+     7321    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7322                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7323                     from cxx_glue.h:18,
+     7324                     from file.cc:19:
+     7325    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int64_t opal_thread_swap_64(vola
+             tile int64_t*, int64_t)':
+  >> 7326    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_64' was not d
+             eclared in this scope
+     7327             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7328                                                                                ^
+     7329    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:173:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7330     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int64_t, int64_t, 64)
+     7331     ^
+     7332    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7333                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:28,
+     7334                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128,
+     7335                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7336                     from cxx_glue.h:18,
+     7337                     from comm.cc:27:
+     7338    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'void* opal_thread_swap_ptr(volat
+             ile intptr_t*, void*)':
+  >> 7339    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7340     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7341                                                                                                  
+                        ^
+     7342    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:16: note: in expansion of macro 'opal_atom
+             ic_swap_ptr'
+     7343             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7344                    ^
+     7345    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:148:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+
+     ...
+
+     7347     ^
+     7348    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7349                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7350                     from cxx_glue.h:18,
+     7351                     from win.cc:18:
+     7352    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int64_t opal_thread_swap_64(vola
+             tile int64_t*, int64_t)':
+  >> 7353    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_64' was not d
+             eclared in this scope
+     7354             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7355                                                                                ^
+     7356    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:173:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7357     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int64_t, int64_t, 64)
+     7358     ^
+     7359    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7360                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7361                     from cxx_glue.h:18,
+     7362                     from datatype.cc:18:
+     7363    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int64_t opal_thread_swap_64(vola
+             tile int64_t*, int64_t)':
+  >> 7364    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_64' was not d
+             eclared in this scope
+     7365             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7366                                                                                ^
+     7367    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:173:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7368     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int64_t, int64_t, 64)
+     7369     ^
+     7370    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7371                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7372                     from cxx_glue.h:18,
+     7373                     from comm.cc:27:
+     7374    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int64_t opal_thread_swap_64(vola
+             tile int64_t*, int64_t)':
+  >> 7375    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_64' was not d
+             eclared in this scope
+     7376             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7377                                                                                ^
+     7378    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:173:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7379     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int64_t, int64_t, 64)
+     7380     ^
+     7381    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7382                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7383                     from cxx_glue.h:18,
+     7384                     from intercepts.cc:29:
+     7385    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int32_t opal_thread_swap_32(vola
+             tile int32_t*, int32_t)':
+  >> 7386    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_32' was not d
+             eclared in this scope
+     7387             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7388                                                                                ^
+     7389    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:147:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7390     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int32_t, int32_t, 32)
+     7391     ^
+     7392    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7393                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:28,
+     7394                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128,
+     7395                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7396                     from cxx_glue.h:18,
+     7397                     from intercepts.cc:29:
+     7398    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'void* opal_thread_swap_ptr(volat
+             ile intptr_t*, void*)':
+  >> 7399    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7400     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7401                                                                                                  
+                        ^
+     7402    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:16: note: in expansion of macro 'opal_atom
+             ic_swap_ptr'
+     7403             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7404                    ^
+     7405    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:148:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+
+     ...
+
+     7407     ^
+     7408    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7409                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7410                     from cxx_glue.h:18,
+     7411                     from mpicxx.cc:28:
+     7412    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int32_t opal_thread_swap_32(vola
+             tile int32_t*, int32_t)':
+  >> 7413    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_32' was not d
+             eclared in this scope
+     7414             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7415                                                                                ^
+     7416    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:147:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7417     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int32_t, int32_t, 32)
+     7418     ^
+     7419    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7420                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7421                     from cxx_glue.h:18,
+     7422                     from intercepts.cc:29:
+     7423    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int64_t opal_thread_swap_64(vola
+             tile int64_t*, int64_t)':
+  >> 7424    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_64' was not d
+             eclared in this scope
+     7425             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7426                                                                                ^
+     7427    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:173:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7428     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int64_t, int64_t, 64)
+     7429     ^
+     7430    In file included from ../../../opal/include/opal/sys/atomic.h:615:0,
+     7431                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:28,
+     7432                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128,
+     7433                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7434                     from cxx_glue.h:18,
+     7435                     from mpicxx.cc:28:
+     7436    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'void* opal_thread_swap_ptr(volat
+             ile intptr_t*, void*)':
+  >> 7437    ../../../opal/include/opal/sys/atomic_impl.h:272:105: error: 'opal_atomic_swap_64' was not dec
+             lared in this scope
+     7438     #define opal_atomic_swap_ptr(addr, value) (void *) opal_atomic_swap_64((int64_t *) addr, (int
+             64_t) value)
+     7439                                                                                                  
+                        ^
+     7440    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:16: note: in expansion of macro 'opal_atom
+             ic_swap_ptr'
+     7441             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7442                    ^
+     7443    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:148:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+
+     ...
+
+     7445     ^
+     7446    In file included from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/opal/class/opal_object.h:128:0,
+     7447                     from /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2
+             uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/ompi/errhandler/errhandler.h:36,
+     7448                     from cxx_glue.h:18,
+     7449                     from mpicxx.cc:28:
+     7450    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h: In function 'int64_t opal_thread_swap_64(vola
+             tile int64_t*, int64_t)':
+  >> 7451    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:134:76: error: 'opal_atomic_swap_64' was not d
+             eclared in this scope
+     7452             return opal_atomic_swap_ ## suffix ((volatile type *) ptr, newvalue); \
+     7453                                                                                ^
+     7454    /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussks
+             i4g5s/openmpi-2.0.2/opal/threads/thread_usage.h:173:1: note: in expansion of macro 'OPAL_THREA
+             D_DEFINE_ATOMIC_SWAP'
+     7455     OPAL_THREAD_DEFINE_ATOMIC_SWAP(int64_t, int64_t, 64)
+     7456     ^
+     7457    make[2]: *** [Makefile:1853: file.lo] Error 1
+
+See build log for details:
+  /g/g13/topa1/spack/spack.ray.current/var/spack/stage/openmpi-2.0.2-4g4l2uo5qobd7rrq74iyxgussksi4g5s/openmpi-2.0.2/spack-build.out
